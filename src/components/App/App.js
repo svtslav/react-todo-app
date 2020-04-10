@@ -47,7 +47,7 @@ export default class App extends Component {
         return item.id;
       }).reduce((max, current) => {
         return Math.max(current, max);
-      });
+      }, 0);
 
       const newArray = [
         ...todoData, 
