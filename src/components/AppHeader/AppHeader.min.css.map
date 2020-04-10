@@ -1,9 +1,0 @@
-{
-    "version": 3,
-    "mappings": "AACG,AAAD,kBAAQ,AAAC,CACP,MAAM,CAAE,MAAM,CACf",
-    "sources": [
-        "AppHeader.scss"
-    ],
-    "names": [],
-    "file": "AppHeader.min.css"
-}

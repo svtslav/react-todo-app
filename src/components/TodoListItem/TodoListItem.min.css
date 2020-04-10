@@ -1,2 +1,0 @@
-.todo-list-item{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between}.todo-list-item__label{cursor:pointer}.todo-list-item__label_done{text-decoration:line-through}.todo-list-item__label_important{color:tomato;font-weight:bold}.todo-list-item__control{display:inline-block;margin:0 5px;font-weight:bold;cursor:pointer;color:gray}.todo-list-item__control_delete:hover{color:black}.todo-list-item__control_important:hover{color:tomato}
-/*# sourceMappingURL=TodoListItem.min.css.map */
