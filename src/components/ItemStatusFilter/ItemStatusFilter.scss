@@ -1,0 +1,21 @@
+.item-status-filter {
+  margin: 12px 0;
+  &__filter {
+    display: inline-block;
+    cursor: pointer;
+    padding: 0 2px;
+    margin-left: 10px;
+    border-bottom: 1px solid transparent;
+    &:first-child {
+      margin-left: 0;
+    }
+    &:hover {
+      border-color: currentColor;
+    }
+
+    &_active {
+      font-weight: bold;
+      border-bottom: 1px solid;
+    }
+  }
+}

@@ -1,0 +1,18 @@
+.search-panel {
+  margin: 12px 0;
+  &__input {
+    width: 100%;
+    box-sizing: border-box;
+    font-family: inherit;
+    font-size: inherit;
+    padding: 6px 12px;
+    border: 1px solid gainsboro;
+    appearance: none;
+    -webkit-appearance: none;
+    box-shadow: none;
+    outline: none;
+    &:focus {
+      border-color: black;
+    }
+  }
+}

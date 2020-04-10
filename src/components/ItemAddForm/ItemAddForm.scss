@@ -1,0 +1,35 @@
+.item-add-form {
+  display: flex;
+  justify-content: space-between;
+
+  &__input {
+    display: flex;
+    flex: 4;
+    box-sizing: border-box;
+    font-family: inherit;
+    font-size: inherit;
+    padding: 6px 12px;
+    border: 1px solid gainsboro;
+    appearance: none;
+    -webkit-appearance: none;
+    box-shadow: none;
+    outline: none;
+    &:focus {
+      border-color: black;
+    }
+  }
+
+  &__submit {
+    display: flex;
+    flex: 0;
+    box-sizing: border-box;
+    padding: 6px 16px;
+    margin-left: 12px;
+    font-family: inherit;
+    font-size: inherit;
+    justify-content: center;
+    outline: none;
+    appearance: none;
+    -webkit-appearance: none;
+  }
+}

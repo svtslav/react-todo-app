@@ -1,0 +1,10 @@
+.todo-list {
+  padding: 0;
+  &__item {
+    padding: 8px 12px;
+    list-style: none;
+    &:nth-child(odd) {
+      background-color: gainsboro;
+    }
+  }
+}

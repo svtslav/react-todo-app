@@ -1,0 +1,36 @@
+.todo-list-item {
+  display: flex;
+  justify-content: space-between;
+
+  &__label {
+    cursor: pointer;
+    &_done {
+      text-decoration: line-through;
+    }
+    &_important {
+      color: tomato;
+      font-weight: bold;
+    }
+  }
+  &__controls {
+  
+  }
+  &__control {
+    display: inline-block;
+    margin: 0 5px;
+    font-weight: bold;
+    cursor: pointer;
+    color: gray;
+    
+    &_delete {
+      &:hover {
+        color: black;
+      }
+    }
+    &_important {
+      &:hover {
+        color: tomato;
+      }
+    }
+  }
+}
